@@ -89,7 +89,7 @@ legend("topright",
 #CONCULSION------------------------------------------------------------------------------------------------------
 #Of course as our population increases the probability of having less than or equal to 0.02*n decreases.
 #Interestingly, our simulation at 5000 repetitions models our phyper() function very closely at all population sizes.
-#As our population size increases (N>>n) our binomial probability apporximates our hypergeometric probability very well. 
+#As our population size increases (N>>n) our binomial probability approximates our hypergeometric probability very well. 
 
 
 
