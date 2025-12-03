@@ -48,14 +48,14 @@ for(j in 1:4) {
 #creating a vector that stores the binary outcome of our experiment to get the average (probability)
   colour_proportion<-numeric(reps)
   
-  sample_size<-as.integer(0.1*n ) #sample size we select red balls from 
+  sample_size<-as.integer(0.1*n )                                            #sample size we select red balls from 
   print(paste("Running for j =", j, "n =", n, "sample size =", sample_size)) #checking the outer for loop runs 
   
 for(i in 1:reps) {
   balls<- sample(1:n, sample_size, replace = FALSE)
   sum_of_red_balls<- sum(colours[balls]== "red ball")
 
-#if samples less than or equal to 0.02*n red balls, success and 1 
+#if samples less than or equal to 0.02*n red balls, success and assign 1 
   if(sum_of_red_balls <= 0.02*n) {
     colour_proportion[i]<-1  #assigning success or failure to "colour_proportion" vector 
   } else {
