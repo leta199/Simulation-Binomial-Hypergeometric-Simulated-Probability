@@ -5,7 +5,7 @@ help(pbinom)
 help(phyper)
 help(sample)
 
-#PART #1 - BINOMIAL AND HYPERGEOMETRIC -----------------------------------------------------
+#PART #1 - BINOMIAL AND HYPERGEOMETRIC FUNCTIONS -------------------------------------------------------------
 #COMPARING BINOMIAL TO HYPER GEOMETRIC AT n=100, 1000, 5000, 10000
 
 n_pop<- c(100,1000,5000,10000)
@@ -25,7 +25,7 @@ for (i in seq_along(n_pop)) {
   hyper_prob[i]<-phyper(threshold, red, non_red,sample)
 }
 
-#PART #2 - BY SIMULATION-----------------------------------------------------------------------
+#PART #2 - BY SIMULATION---------------------------------------------------------------------------------------
 #I want to see how our simulation compares with our functions. 
 
 set.seed(8909)                    #reproducibility 
