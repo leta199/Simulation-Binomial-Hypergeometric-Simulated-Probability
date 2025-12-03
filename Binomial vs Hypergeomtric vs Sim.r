@@ -73,7 +73,7 @@ results<- data.frame(
   Simulated_Probability= round(overall_prob,6)
 )
 
-#Let us also create a combined line graph to show how close the porbabilities are to each other at each trial
+#Let us also create a combined line graph to show how close the probabilities are to each other at each trial
 plot(1:4, binom_prob, type = "l", col = "maroon",
      xlab= "Number of trials",
      ylab= "Probability",
@@ -88,7 +88,7 @@ legend("topright",
 
 #CONCULSION------------------------------------------------------------------------------------------------------
 #Of course as our population increases the probability of having less than or equal to 0.02*n decreases.
-#Interestingly, our simulation at 5000 repetitions models our phyper() function very closely as all population sizes.
+#Interestingly, our simulation at 5000 repetitions models our phyper() function very closely at all population sizes.
 #As our population size increases (N>>n) our binomial probability apporximates our hypergeometric probability very well. 
 
 
