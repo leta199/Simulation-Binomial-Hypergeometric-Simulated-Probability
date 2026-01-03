@@ -1,4 +1,4 @@
-# Simulation -  Binomial vs Hypergeometric vs  Simulated Probability 
+# Binomial vs Hypergeometric vs  Simulated Probability 
 Uncovering how binomial, hypergeometric and simulated probability compare when picking red balls in a sample from a large population.
 
 This project aims to create an experiment that can simulate binomial and hypergeometric probavikites using stochastic methods and determine the level of precision and accuracy that can be generated. 
